@@ -5,12 +5,20 @@ function printBadges(sms){
     console.log(`Welcome ${i} You are employee #${i+1}.`)
   }
 }
-*/
+*//*
 let sms = ['Lisa', 'Kaitlin', 'Jan']
 function printBadges(sms){
   for (i = 0; i<sms.length; i++){
     console.log(`Welcome ${sms[i]}! You are employee #${i+1}.`)}
     return sms
+}
+*/
+function printBadges(sms){
+  for (i = 0; i<sms.length; i++){
+    console.log(`Welcome ${sms[i]}! You are employee #${i+1}.`)}
+    let arr = [];
+arr = sms
+return arr
 }
 
 
